@@ -24,7 +24,7 @@ After this script ends, you need to log out and log baxk in to see memory config
 ```bash
 exit
 ```
-Log back in and run the second script.
+Log back in, move to your home directory and run the second script.
 ```bash
-sudo ./02_worker_compile_config.sh
+sudo ./ConfigUbuntuOnAzure/02_worker_compile_config.sh
 ```
