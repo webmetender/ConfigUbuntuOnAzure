@@ -1,4 +1,13 @@
 # ConfigUbuntuOnAzure
+These scripts have been tested on Ubuntu Server 16.04 LTS installed on Azure VPS.
+To download this scripts, connect to the VPS and run this line:
+```bash
+sudo apt-get install git
+```
+Once git is installed, move to your home directory and clone the scripts.
+```bash
+git clone https://github.com/webmetender/ConfigUbuntuOnAzure.git
+```
 After file download, make the scripts executable:
 ```bash
 sudo chmod +x 01_sys_install_config.sh
