@@ -1,4 +1,4 @@
-# ConfigDebian9
+# ConfigUbuntuOnAzure
 After file download, make it executable:
 ```bash
 sudo chmod +x go.sh
