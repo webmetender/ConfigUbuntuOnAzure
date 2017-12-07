@@ -11,6 +11,7 @@ git clone https://github.com/webmetender/ConfigUbuntuOnAzure.git
 ```
 After file download, make the scripts executable:
 ```bash
+cd ConfigUbuntuOnAzure
 sudo chmod +x 01_sys_install_config.sh
 sudo chmod +x 02_worker_compile_config.sh
 ```
