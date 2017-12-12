@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get --yes --force-yes update && sudo apt-get --yes --force-yes upgrade
 sudo apt-get --yes --force-yes install locate mlocate
 sudo updatedb
 sudo apt-get --yes --force-yes install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
