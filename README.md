@@ -19,7 +19,7 @@ You'll be asked to agree by hitting 'y' several times during the process.
 ```bash
 sudo ./ConfigUbuntuOnAzure/01_sys_install_config.sh
 ```
-After this script ends, you need to log out and log baxk in to see memory configuration changes applied.
+After this script ends, you need to log out and log back in to see memory configuration changes applied.
 ```bash
 exit
 ```
