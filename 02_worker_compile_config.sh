@@ -9,5 +9,7 @@ sudo mkdir xmr-stak/build
 cd xmr-stak/build
 sudo cmake -DCMAKE-BUILD_TYPE=RELEASE -DMICROHTTPD_ENABLE=ON -DXMR-STAK_CURRENCY=monero -DXMR-STAK_COMPILE=native -DCPU_ENABLE=ON -DHWLOC_ENABLE=ON -DOpenCL_ENABLE=OFF -DCUDA_ENABLE=OFF ..
 sudo make install
-cd
-sudo ./xmr-stak/build/bin/xmr-stak
+# config files are created where the worker is launched from,
+# temporarly disabling the end of the script
+# cd
+# sudo ./xmr-stak/build/bin/xmr-stak
