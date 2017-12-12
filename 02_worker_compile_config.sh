@@ -9,4 +9,5 @@ sudo mkdir xmr-stak/build
 cd xmr-stak/build
 sudo cmake -DCMAKE-BUILD_TYPE=RELEASE -DMICROHTTPD_ENABLE=ON -DXMR-STAK_CURRENCY=monero -DXMR-STAK_COMPILE=native -DCPU_ENABLE=ON -DHWLOC_ENABLE=ON -DOpenCL_ENABLE=OFF -DCUDA_ENABLE=OFF ..
 sudo make install
-sudo ./bin/xmr-stak
+cd
+sudo ./xmr-stak/build/bin/xmr-stak
